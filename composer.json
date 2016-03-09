@@ -1,0 +1,22 @@
+{
+	"name": "aleskafka/data-loader",
+	"type": "library",
+	"description": "Library to load bulk data",
+	"keywords": ["Data", "Loader", "View"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ales Kafka"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"nette/tester": "~1.3",
+		"nette/di": "~2.3"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
