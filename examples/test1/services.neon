@@ -1,0 +1,13 @@
+
+services:
+    dataloader:
+        class: DataLoader\DataLoader
+
+    dataloader.item:
+        class: App\DataLoader\Item
+
+    dataloader.item.data:
+        class: App\DataLoader\ItemData
+
+    dataloader.item.created:
+        class: App\DataLoader\ItemCreated
